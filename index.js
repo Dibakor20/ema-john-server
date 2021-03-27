@@ -63,4 +63,4 @@ client.connect(err => {
 
 
 
-app.listen(5000,()=>console.log('lissinting to port 5000'))
+app.listen(process.env.PORT || 5000)
